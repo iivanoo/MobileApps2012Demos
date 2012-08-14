@@ -5,9 +5,10 @@ Functionalities for adding and updating employees are supported by the REST API,
 1. they have not been tested
 
 This demo is composed of 3 main parts:
-	1. Client: represents the client web app accessing a REST API for managing a directory of employees
-	1. Database: contains a MySQL dump containing all the data needed by the app 
-	1. Server: contains an implementation of the REST API backing up the application
+
+1. Client: represents the client web app accessing a REST API for managing a directory of employees
+1. Database: contains a MySQL dump containing all the data needed by the app 
+1. Server: contains an implementation of the REST API backing up the application
 
 Client Setup: 
 * copy the EmployeeDirectoryModularClient folder to any location within your computer
@@ -28,6 +29,7 @@ Server Setup:
 * click on "Finish"
 
 How to Run the demo:
+
 1. launch the Apache and MySQL modules of XAMPP and check if MySQL is correctly running via PhPMyAdmin: http://localhost/phpmyadmin/
 1. in Eclipse, right-click on the EmployeeDirectoryServer project and click on RunAs->"Run on Server"
 1. check that the REST API is now running by browsing to http://localhost:8080/EmployeeDirectoryServer/api/employees (you should see an XML stream now)
