@@ -1,6 +1,7 @@
-This demo is an adapted employeeeDirectoryModular demo app in which I provide also an implementation of its REST API in Java (via Tomcat+Jersey+MySQL).
-I also added a functionality to delete employees directly from the web app. 
+This demo is an adapted employeeeDirectoryModular demo app in which I provide also an implementation of its REST API in Java (via Tomcat+Jersey+MySQL). I also added a functionality to delete employees directly from the web app. 
+
 Functionalities for adding and updating employees are supported by the REST API, but: 
+
 1. they have not been implemented in the client web app,
 1. they have not been tested
 
