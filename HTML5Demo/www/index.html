@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"
+    />
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="text/javascript" charset="utf-8" src="./js/lib/cordova-1.6.0.js">
+                                                                
+    </script>
+  </head>
+  
+  <body onload="onBodyLoad()">
+    <header>
+      <h1>
+        HTML5 Demo
+      </h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#structure">Struct</a>
+          </li>
+          <li>
+            <a href="#forms">Form</a>
+          </li>
+          <li>
+            <a href="#av">AV</a>
+          </li>
+          <li>
+            <a href="#worker">Worker</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="structure">
+      <article>
+        <header>
+          <h2>
+            First Article Title
+          </h2>
+        </header>
+        <section>
+          <p>
+            contents...
+          </p>
+        </section>
+      </article>
+      <article>
+        <header>
+          <h2>
+            Second Article Title
+          </h2>
+        </header>
+        <section>
+          <p>
+            contents...
+          </p>
+        </section>
+      </article>
+      <article>
+        <header>
+          <h2>
+            Third Article Title
+          </h2>
+        </header>
+        <section>
+          <p>
+            contents...
+          </p>
+        </section>
+      </article>
+    </section>
+    <section id="forms">
+      <header>
+        <h1>
+          Form
+        </h1>
+      </header>
+      <form id="formField" action="alert('OK')">
+        <ul>
+          <li>
+            <input name="name" placeholder="Your name" required />
+          </li>
+          <li>
+            <input type="text" name="surname" placeholder="Your Surname" required />
+          </li>
+          <li>
+            <input type="email" name="email" placeholder="email" required />
+          </li>
+          <li>
+            Birthday:
+            <input type="date" name="birthday" placeholder="birthday" />
+          </li>
+          <li>
+            <input type="submit" value="Sign In">
+          </li>
+          <ul>
+      </form>
+    </section>
+    <section id="av">
+      <header>
+        <h1>
+          AudioVideo
+        </h1>
+      </header>
+      <audio controls>
+        <source src="./resources/bjork.mp3" type="audio/mpeg" />
+        Not Supported
+      </audio>
+      <iframe width="305" height="220" src="http://www.youtube.com/embed/ajhFNcUTJI0?modestbranding=1&amp;showinfo=0"
+      frameborder="0" allowfullscreen>
+      </iframe>
+    </section>
+    <section id="worker">
+      <header>
+        <h1>
+          Web Worker
+        </h1>
+      </header>
+      <p id="currentCount">
+        0
+      </p>
+      <button id="start" type="button">
+        Start
+      </button>
+      <button id="stop" type="button">
+        Stop
+      </button>
+    </section>
+    <footer>
+      <p>
+        FOOTER
+      </p>
+    </footer>
+    <script src="./js/lib/jquery-1.7.min.js">
+                                
+    </script>
+    <script src="./js/lib/jquery.validate.min.js">
+                                
+    </script>
+    <script src="./js/script.js">
+                                    
+    </script>
+  </body>
+
+</html>

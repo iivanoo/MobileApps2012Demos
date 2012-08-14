@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body onload="startSSE()">
+    <script>
+        var phpSource = "http://localhost/ServerSentEventsPHP/sse.php";
+        
+        function startSSE() {
+            var source = new EventSource(phpSource); 
+           
+            source.onmessage=function(event) {
+                document.getElementById("result").innerHTML += event.data + "<br/>";
+            };
+        }
+    </script>
+
+    <output id="result"></output>
+
+</body>
+</html>

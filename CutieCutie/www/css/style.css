@@ -1,0 +1,27 @@
+html, body{
+ margin: 0;
+ padding: 0;
+ border: 0;
+}
+
+#mainContainer {
+  margin: 0;
+}
+
+.cat {
+    width: 100%;
+}
+
+#loadMore {
+    text-align: center;
+    background: #E0E0E0;
+    height: 90px;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #707070;
+    margin: 0;
+}
+
+.textMore {
+  line-height: 60px;
+}

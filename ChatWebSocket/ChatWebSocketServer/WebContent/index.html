@@ -1,0 +1,21 @@
+<html>
+ <head>
+  <title>WebSocket Chat Example</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+  <script type='text/javascript' src="chat.js"></script>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+ <body>
+  <div>
+    <input type="text" placeholder="username" id="username"></input>
+    <button id="joinButton">Join</button>
+    <button id="leaveButton" disabled="disabled">Leave</button>
+  </div>
+  <div id="chatLog">
+  </div>
+  <div>
+    <input type="text" placeholder="message" placeholder="write a message" id="message"></input>
+    <button id="sendButton" disabled="disabled">Send</button>
+  </div>
+ </body>
+</html>

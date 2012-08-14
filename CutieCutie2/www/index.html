@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"
+        />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" charset="utf-8" src="./js/lib/cordova-1.7.0rc1.js">
+                                                                                                                            
+        </script>
+    </head>
+    
+    <body onload="onBodyLoad()">
+        <div id="mainContainer">
+            <section id="explore" class="view current">
+                <section id="catsContainer">
+                </section>
+                <div id="loadMore">
+                </div>
+            </section>
+            <section id="favourites" class="view">
+                <section>
+                    Favourites View TBD
+                </section>
+            </section>
+            <section id="info" class="view">
+                <section>
+                    Information View TBD
+                </section>
+            </section>
+        </div>
+        <footer>
+            <div class="menu" id="exploreMenu">
+                <img src="./resources/cat-icon.png" />
+            </div>
+            <div class="menu" id="favouritesMenu">
+                <img src="./resources/heart-icon.png" />
+            </div>
+            <div class="menu" id="infoMenu">
+                <img src="./resources/info-icon.png" />
+            </div>
+        </footer>
+        <div id="controller"></div>
+        <script src="./js/lib/jquery-1.7.min.js">
+                                                                                                              
+        </script>
+        <script src="./js/navigation.js">
+                                                                                                                
+        </script>
+        <script src="./js/cats.js">
+                                                                                                                
+        </script>
+    </body>
+
+</html>

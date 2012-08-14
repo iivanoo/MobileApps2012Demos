@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"
+        />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" charset="utf-8" src="./js/lib/cordova-1.7.0rc1.js">
+                                
+        </script>
+        <script>
+        require = {
+    locale: "en_ca",
+    // I change the path as to not duplicate the hbs.js and handlebars plugin.
+    // Normally, just drop it in the same place as require.js and it'll work fine.
+    // Essentially just ignore this.
+    paths: {
+        'hbs': '../js/lib/hbs',
+        'Handlebars': '../js/lib/Handlebars'
+    }
+};
+        </script>
+        <script data-main="js/main" src="js/lib/require-jquery.js">
+                                                                                                  
+        </script>
+    </head>
+    
+    <body>
+        <div id="mainContainer">
+        </div>
+    </body>
+
+</html>

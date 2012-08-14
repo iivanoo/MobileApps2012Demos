@@ -1,0 +1,14 @@
+#chatLog {
+	width: 100%;
+	min-height: 200px;
+	border: 1px dotted gray;
+}
+
+.user {
+	display: inline;
+	font-weight:bold;
+}
+
+.msg {
+	display: inline;
+}

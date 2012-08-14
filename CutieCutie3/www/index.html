@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>
+        </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no;"
+        />
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css" />
+        <script type="text/javascript" charset="utf-8" src="./js/lib/cordova-1.7.0rc1.js">
+                        
+        </script>
+        <script data-main="js/main" src="js/lib/require-jquery.js">
+                                                                                          
+        </script>
+    </head>
+    
+    <body>
+        <div id="mainContainer">
+            <section id="explore" class="view current">
+                <section id="catsContainer">
+                </section>
+                <div id="connectionError">
+                    It seems you have no Internet connection
+                    <div id="retryButton">
+                        retry
+                    </div>
+                </div>
+                <div id="loadMore">
+                </div>
+            </section>
+            <section id="favourites" class="view">
+                <section>
+                    Favourites View TBD
+                </section>
+            </section>
+            <section id="info" class="view">
+                <section>
+                    Information View TBD
+                </section>
+            </section>
+        </div>
+        <footer>
+            <div class="menu" id="exploreMenu">
+                <img src="./resources/cat-icon.png" />
+            </div>
+            <div class="menu" id="favouritesMenu">
+                <img src="./resources/heart-icon.png" />
+            </div>
+            <div class="menu" id="infoMenu">
+                <img src="./resources/info-icon.png" />
+            </div>
+        </footer>
+        <div id="controller">
+        </div>
+    </body>
+
+</html>
